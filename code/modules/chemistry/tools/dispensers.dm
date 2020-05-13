@@ -532,6 +532,14 @@
 		else
 			return ..()
 
+/obj/reagent_dispensers/still/hobo
+	name = "shitty still"
+	desc = "Some sort of crazy make-shift distillery. This can't be safe, can it?"
+	icon = 'icons/obj/objects.dmi'
+	icon_state = "hobostill"
+	amount_per_transfer_from_this = 25
+
+/var/hobobrewable = 1
 
 /* ==================================================== */
 /* --------------- Water Cooler Bottle ---------------- */
