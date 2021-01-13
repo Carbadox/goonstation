@@ -7773,7 +7773,7 @@
 	icon = 'icons/misc/evilreaverstation.dmi';
 	icon_state = "old_rwall"
 	},
-/area/tech_outpost)
+/area/shitty_villa)
 "auz" = (
 /obj/item/caution{
 	desc = "Caution! Construction Zone!";
@@ -7815,7 +7815,7 @@
 "auF" = (
 /obj/storage/crate/furnacefuel,
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/shitty_villa)
 "auG" = (
 /obj/table/auto,
 /obj/machinery/cell_charger,
@@ -7824,7 +7824,7 @@
 	status = 2
 	},
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/shitty_villa)
 "auH" = (
 /obj/cable{
 	d1 = 2;
@@ -7837,7 +7837,7 @@
 	},
 /obj/machinery/power/monitor,
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/shitty_villa)
 "auI" = (
 /obj/cable{
 	d2 = 8;
@@ -7849,7 +7849,7 @@
 	output = 2500
 	},
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/shitty_villa)
 "auJ" = (
 /obj/structure/girder,
 /turf/simulated/floor/plating/airless/asteroid,
@@ -7946,15 +7946,20 @@
 	pixel_x = -24
 	},
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/shitty_villa)
 "auX" = (
 /obj/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/shitty_villa)
 "auY" = (
 /obj/cable{
 	d1 = 1;
@@ -7967,7 +7972,7 @@
 	icon_state = "2-4"
 	},
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/shitty_villa)
 "auZ" = (
 /obj/machinery/power/terminal{
 	dir = 1
@@ -7981,7 +7986,7 @@
 	icon_state = "0-8"
 	},
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/shitty_villa)
 "ava" = (
 /obj/grille/catwalk,
 /turf/simulated/floor/plating/airless/asteroid,
@@ -8041,7 +8046,7 @@
 	dir = 2
 	},
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/shitty_villa)
 "avi" = (
 /obj/grille/steel,
 /obj/window/reinforced{
@@ -8057,12 +8062,17 @@
 	dir = 2
 	},
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/shitty_villa)
 "avj" = (
+/obj/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/stairs{
 	dir = 1
 	},
-/area/tech_outpost)
+/area/shitty_villa)
 "avk" = (
 /obj/machinery/power/furnace{
 	active = 1;
@@ -8070,7 +8080,7 @@
 	},
 /obj/cable,
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/shitty_villa)
 "avl" = (
 /obj/cable,
 /obj/machinery/power/furnace{
@@ -8078,11 +8088,11 @@
 	fuel = 600
 	},
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/shitty_villa)
 "avm" = (
 /obj/machinery/door/airlock/external,
 /turf/simulated/floor/shuttlebay,
-/area/tech_outpost)
+/area/shitty_villa)
 "avn" = (
 /obj/decal/cleanable/dirt,
 /obj/item/electronics/capacitor,
@@ -8135,59 +8145,51 @@
 	name = "graffiti";
 	pixel_x = -32
 	},
-/obj/item/reagent_containers/food/drinks/bottle/fancy_beer,
-/turf/simulated/floor{
-	dir = 4;
-	icon_state = "carpetNW"
+/obj/decoration/toiletholder{
+	dir = 8
 	},
-/area/tech_outpost)
+/turf/simulated/floor/white,
+/area/shitty_villa)
 "avu" = (
-/obj/stool/bed,
-/obj/item/clothing/suit/bedsheet,
-/turf/simulated/floor{
-	dir = 4;
-	icon_state = "carpetN"
+/obj/machinery/light/incandescent/blueish{
+	dir = 1
 	},
-/area/tech_outpost)
+/turf/simulated/floor/white,
+/area/shitty_villa)
 "avv" = (
-/obj/storage/secure/closet/engineering/mechanic,
-/turf/simulated/floor{
-	dir = 4;
-	icon_state = "carpetNE"
+/obj/machinery/floorflusher/bathtub{
+	dir = 8
 	},
-/area/tech_outpost)
+/turf/simulated/floor/white,
+/area/shitty_villa)
 "avw" = (
-/obj/table/auto,
-/obj/item/sheet/glass{
-	amount = 50
+/obj/machinery/microwave,
+/obj/table/reinforced/auto,
+/turf/unsimulated/floor/wood/eight{
+	dir = 4
 	},
-/obj/item/sheet/glass/reinforced{
-	amount = 50
-	},
-/obj/item/clothing/head/helmet/hardhat,
-/turf/simulated/floor/plating,
-/area/tech_outpost)
-"avx" = (
-/obj/item/tile/steel,
-/turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/shitty_villa)
 "avy" = (
-/turf/simulated/floor/plating,
-/area/tech_outpost)
-"avz" = (
-/obj/machinery/light/small{
-	dir = 1;
-	status = 2
+/obj/table/auto/desk,
+/turf/unsimulated/floor/wood/eight{
+	dir = 4
 	},
-/turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/shitty_villa)
+"avz" = (
+/obj/submachine/chef_oven,
+/turf/unsimulated/floor/wood/eight{
+	dir = 4
+	},
+/area/shitty_villa)
 "avA" = (
-/obj/table/auto,
-/obj/item/storage/toolbox/emergency,
-/obj/item/storage/belt/utility,
-/obj/item/electronics/soldering,
-/turf/simulated/floor/plating,
-/area/tech_outpost)
+/obj/table/reinforced/auto,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/unsimulated/floor/wood/eight{
+	dir = 4
+	},
+/area/shitty_villa)
 "avB" = (
 /obj/securearea{
 	desc = "";
@@ -8198,25 +8200,28 @@
 	icon = 'icons/misc/evilreaverstation.dmi';
 	icon_state = "old_rwall"
 	},
-/area/tech_outpost)
+/area/shitty_villa)
 "avC" = (
 /obj/machinery/door/airlock,
 /turf/simulated/floor/delivery,
-/area/tech_outpost)
+/area/shitty_villa)
 "avD" = (
 /obj/storage/closet/welding_supply,
 /turf/simulated/floor/caution/east,
-/area/tech_outpost)
+/area/shitty_villa)
 "avE" = (
 /turf/simulated/floor/shuttlebay,
-/area/tech_outpost)
+/area/shitty_villa)
 "avF" = (
-/obj/machinery/light/small{
-	dir = 1;
-	status = 2
+/obj/machinery/door/airlock,
+/obj/cable,
+/obj/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
 	},
-/turf/simulated/floor/shuttlebay,
-/area/tech_outpost)
+/turf/simulated/floor/delivery,
+/area/shitty_villa)
 "avG" = (
 /obj/machinery/r_door_control{
 	id = "hangar_mechoutpost"
@@ -8225,7 +8230,7 @@
 	icon = 'icons/misc/evilreaverstation.dmi';
 	icon_state = "old_rwall"
 	},
-/area/tech_outpost)
+/area/shitty_villa)
 "avH" = (
 /obj/decal/fakeobjects/lighttube_broken{
 	dir = 8
@@ -8237,71 +8242,96 @@
 /turf/simulated/floor/specialroom/cafeteria,
 /area/buddyfactory)
 "avJ" = (
-/obj/item/cigbutt,
-/turf/simulated/floor{
-	dir = 8;
-	icon_state = "carpetSW"
+/obj/item/storage/toilet{
+	dir = 4
 	},
-/area/tech_outpost)
+/turf/simulated/floor/white,
+/area/shitty_villa)
 "avK" = (
-/turf/simulated/floor{
-	dir = 8;
-	icon_state = "carpetS"
-	},
-/area/tech_outpost)
+/turf/simulated/floor/white,
+/area/shitty_villa)
 "avL" = (
-/turf/simulated/floor{
-	dir = 4;
-	icon_state = "carpetSE"
-	},
-/area/tech_outpost)
-"avM" = (
-/obj/table/auto,
-/obj/item/sheet/steel/reinforced{
-	amount = 50
-	},
-/obj/item/sheet/steel{
-	amount = 50
-	},
-/obj/item/screwdriver,
-/turf/simulated/floor/plating,
-/area/tech_outpost)
-"avN" = (
-/obj/stool/chair{
+/obj/submachine/chef_sink/chem_sink{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
-/area/tech_outpost)
-"avO" = (
-/obj/table/auto,
-/obj/item/storage/toolbox/mechanical,
-/obj/item/electronics/soldering,
-/obj/item/electronics/scanner,
-/turf/simulated/floor/plating,
-/area/tech_outpost)
-"avP" = (
-/obj/reagent_dispensers/watertank,
-/turf/simulated/floor/grime,
-/area/tech_outpost)
-"avQ" = (
-/turf/simulated/floor/grime,
-/area/tech_outpost)
-"avR" = (
-/obj/machinery/vending/coffee,
-/obj/machinery/light_switch{
-	name = "N light switch";
-	pixel_y = 24
+/turf/simulated/floor/white,
+/area/shitty_villa)
+"avM" = (
+/obj/storage/secure/closet/fridge/kitchen{
+	locked = 0
 	},
-/turf/simulated/floor/grime,
-/area/tech_outpost)
+/obj/item/reagent_containers/food/snacks/breadloaf{
+	pixel_x = -2;
+	pixel_y = 6
+	},
+/obj/item/reagent_containers/food/snacks/breadloaf{
+	pixel_x = -2;
+	pixel_y = 6
+	},
+/obj/item/reagent_containers/food/snacks/ingredient/meat/monkeymeat{
+	pixel_x = 4;
+	pixel_y = -7
+	},
+/obj/item/reagent_containers/food/snacks/ingredient/meat/monkeymeat{
+	pixel_x = 4;
+	pixel_y = -7
+	},
+/obj/item/reagent_containers/food/snacks/ingredient/meat/monkeymeat{
+	pixel_x = 4;
+	pixel_y = -7
+	},
+/turf/unsimulated/floor/wood/eight{
+	dir = 4
+	},
+/area/shitty_villa)
+"avO" = (
+/obj/table/reinforced/auto,
+/obj/submachine/chef_sink/chem_sink{
+	dir = 8
+	},
+/turf/unsimulated/floor/wood/eight{
+	dir = 4
+	},
+/area/shitty_villa)
+"avP" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor,
+/area/shitty_villa)
+"avQ" = (
+/obj/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor,
+/area/shitty_villa)
+"avR" = (
+/obj/item/storage/wall/medical{
+	pixel_y = 35
+	},
+/obj/item/storage/firstaid,
+/turf/simulated/floor,
+/area/shitty_villa)
 "avS" = (
-/obj/machinery/vending/snack,
-/turf/simulated/floor/grime,
-/area/tech_outpost)
+/obj/machinery/light_switch{
+	dir = 4;
+	name = "N light switch";
+	pixel_x = 24
+	},
+/obj/item/storage/wall/fire{
+	pixel_y = 35
+	},
+/turf/simulated/floor,
+/area/shitty_villa)
 "avT" = (
 /obj/reagent_dispensers/fueltank,
+/obj/machinery/light{
+	dir = 8
+	},
 /turf/simulated/floor/caution/east,
-/area/tech_outpost)
+/area/shitty_villa)
 "avU" = (
 /obj/machinery/door/poddoor/blast{
 	autoclose = 1;
@@ -8310,7 +8340,7 @@
 	id = "hangar_mechoutpost"
 	},
 /turf/simulated/floor/shuttlebay,
-/area/tech_outpost)
+/area/shitty_villa)
 "avV" = (
 /obj/critter/rockworm,
 /turf/simulated/floor/plating/airless/asteroid,
@@ -8372,51 +8402,20 @@
 "awe" = (
 /obj/machinery/door/airlock,
 /turf/simulated/floor/yellow,
-/area/tech_outpost)
-"awf" = (
-/obj/decal/fakeobjects{
-	anchored = 1;
-	density = 1;
-	desc = "It doesn't seem to be working yet.";
-	icon = 'icons/obj/networked.dmi';
-	icon_state = "dwaine";
-	name = "inactive mainframe"
-	},
-/turf/simulated/floor/plating,
-/area/tech_outpost)
-"awg" = (
-/obj/item/cable_coil/cut,
-/turf/simulated/floor/plating,
-/area/tech_outpost)
-"awh" = (
-/obj/item/tile/steel,
-/obj/item/caution{
-	desc = "Caution! Construction Zone!";
-	name = "caution sign"
-	},
-/turf/simulated/floor/plating,
-/area/tech_outpost)
-"awi" = (
-/turf/simulated/floor/yellow,
-/area/tech_outpost)
-"awj" = (
-/turf/simulated/floor/stairs{
-	dir = 4
-	},
-/area/tech_outpost)
+/area/shitty_villa)
 "awk" = (
 /obj/machinery/door/airlock/external,
 /turf/simulated/floor/delivery,
-/area/tech_outpost)
+/area/shitty_villa)
 "awl" = (
 /turf/simulated/floor/stairs{
 	dir = 8
 	},
-/area/tech_outpost)
+/area/shitty_villa)
 "awm" = (
 /obj/machinery/vehicle/miniputt/armed,
 /turf/simulated/floor/shuttlebay,
-/area/tech_outpost)
+/area/shitty_villa)
 "awn" = (
 /obj/machinery/door/poddoor/blast{
 	autoclose = 1;
@@ -8424,7 +8423,7 @@
 	id = "hangar_mechoutpost"
 	},
 /turf/simulated/floor/shuttlebay,
-/area/tech_outpost)
+/area/shitty_villa)
 "awo" = (
 /obj/decal/cleanable/dirt,
 /obj/item/cable_coil/cut{
@@ -8455,57 +8454,61 @@
 /turf/simulated/floor/white,
 /area/buddyfactory)
 "awt" = (
-/obj/structure/girder,
-/turf/simulated/floor/plating,
-/area/tech_outpost)
-"awu" = (
-/obj/machinery/vending/computer3{
-	profit = 0
+/obj/shrub{
+	icon = 'icons/obj/stationobjs.dmi';
+	icon_state = "plant"
 	},
-/turf/simulated/floor/plating,
-/area/tech_outpost)
+/turf/unsimulated/floor/wood/eight{
+	dir = 4
+	},
+/area/shitty_villa)
 "awv" = (
-/obj/machinery/vending/floppy{
-	profit = 0
-	},
-/obj/machinery/light/small{
-	dir = 1;
-	status = 2
-	},
-/turf/simulated/floor/plating,
-/area/tech_outpost)
-"aww" = (
-/obj/shrub,
-/turf/simulated/floor/plating,
-/area/tech_outpost)
-"awx" = (
-/turf/simulated/floor/yellow/side{
+/obj/machinery/light{
 	dir = 1
 	},
-/area/tech_outpost)
-"awy" = (
-/obj/item/caution{
-	desc = "Caution! Construction Zone!";
-	name = "caution sign"
+/turf/unsimulated/floor/wood/eight{
+	dir = 4
 	},
+/area/shitty_villa)
+"awx" = (
+/obj/table/reinforced/bar/auto,
+/obj/machinery/glass_recycler{
+	pixel_y = 8
+	},
+/turf/simulated/floor/carpet/blue/fancy/edge{
+	dir = 1
+	},
+/area/shitty_villa)
+"awy" = (
 /obj/machinery/light_switch{
 	name = "E light switch";
 	pixel_x = 24
 	},
-/turf/simulated/floor/yellow/side{
-	dir = 5
-	},
-/area/tech_outpost)
-"awz" = (
-/obj/stool/chair{
+/obj/machinery/chem_dispenser/soda,
+/obj/machinery/light{
 	dir = 4
 	},
-/turf/simulated/floor/grime,
-/area/tech_outpost)
+/turf/simulated/floor/carpet/blue/fancy/edge{
+	dir = 5
+	},
+/area/shitty_villa)
+"awz" = (
+/obj/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor,
+/area/shitty_villa)
 "awA" = (
 /obj/machinery/manufacturer/hangar,
 /turf/simulated/floor/caution/east,
-/area/tech_outpost)
+/area/shitty_villa)
 "awB" = (
 /obj/machinery/door/poddoor/blast{
 	autoclose = 1;
@@ -8514,7 +8517,7 @@
 	id = "hangar_mechoutpost"
 	},
 /turf/simulated/floor/shuttlebay,
-/area/tech_outpost)
+/area/shitty_villa)
 "awC" = (
 /obj/item/storage/toilet{
 	dir = 4
@@ -8532,61 +8535,69 @@
 /obj/window/reinforced{
 	dir = 8
 	},
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/simulated/floor/plating,
-/area/tech_outpost)
-"awE" = (
-/turf/simulated/floor/caution/corner/nw{
-	dir = 8
-	},
-/area/tech_outpost)
-"awF" = (
-/turf/simulated/floor/caution/north{
-	dir = 8
-	},
-/area/tech_outpost)
-"awG" = (
-/turf/simulated/floor/caution/corner/ne,
-/area/tech_outpost)
+/area/shitty_villa)
 "awH" = (
-/obj/table/auto,
-/obj/item/storage/box/lightbox/tubes,
-/obj/machinery/light/small{
+/obj/table/wood/auto/desk,
+/obj/item/storage/box/cocktail_doodads{
+	pixel_x = 5;
+	pixel_y = 9
+	},
+/obj/item/storage/box/cocktail_umbrellas{
+	pixel_x = 5;
+	pixel_y = 2
+	},
+/obj/item/reagent_containers/food/drinks/cocktailshaker{
+	pixel_x = -5;
+	pixel_y = 3
+	},
+/turf/simulated/floor/carpet/blue/fancy/edge{
 	dir = 4
 	},
-/turf/simulated/floor/yellow/side{
-	dir = 4
-	},
-/area/tech_outpost)
+/area/shitty_villa)
 "awI" = (
-/obj/shrub{
-	dir = 1;
-	icon = 'icons/obj/stationobjs.dmi';
-	icon_state = "plant"
+/obj/cable{
+	d2 = 4;
+	icon_state = "0-4"
 	},
-/turf/simulated/floor/grime,
-/area/tech_outpost)
+/obj/machinery/power/data_terminal,
+/obj/machinery/guardbot_dock,
+/obj/machinery/bot/guardbot,
+/turf/simulated/floor,
+/area/shitty_villa)
 "awJ" = (
-/obj/table/auto,
-/obj/machinery/computer/security/wooden_tv/small{
-	pixel_y = 8
-	},
 /obj/machinery/light/small,
-/turf/simulated/floor/grime,
-/area/tech_outpost)
+/obj/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/cable{
+	icon_state = "1-4"
+	},
+/turf/simulated/floor,
+/area/shitty_villa)
 "awK" = (
-/obj/table/auto,
-/obj/machinery/recharger,
-/obj/item/device/light/flashlight,
-/turf/simulated/floor/grime,
-/area/tech_outpost)
+/obj/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor,
+/area/shitty_villa)
 "awL" = (
 /obj/machinery/portable_reclaimer,
 /turf/simulated/floor/caution/east,
-/area/tech_outpost)
+/area/shitty_villa)
 "awM" = (
-/obj/machinery/light/small,
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/simulated/floor/shuttlebay,
-/area/tech_outpost)
+/area/shitty_villa)
 "awN" = (
 /obj/grille/steel,
 /obj/window/reinforced{
@@ -8596,27 +8607,16 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/tech_outpost)
-"awO" = (
-/turf/simulated/floor/caution/west,
-/area/tech_outpost)
-"awP" = (
-/turf/simulated/floor,
-/area/tech_outpost)
+/area/shitty_villa)
 "awQ" = (
-/obj/stool/chair{
-	dir = 4
-	},
-/turf/simulated/floor/caution/east{
-	dir = 8
-	},
-/area/tech_outpost)
+/turf/simulated/floor/carpet/blue/fancy,
+/area/shitty_villa)
 "awR" = (
-/obj/table/auto,
-/turf/simulated/floor/yellow/side{
+/obj/machinery/chem_dispenser/alcohol,
+/turf/simulated/floor/carpet/blue/fancy/edge{
 	dir = 4
 	},
-/area/tech_outpost)
+/area/shitty_villa)
 "awS" = (
 /obj/grille/steel,
 /obj/window/reinforced{
@@ -8629,12 +8629,10 @@
 	dir = 2
 	},
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/shitty_villa)
 "awT" = (
-/turf/simulated/floor/caution/east{
-	dir = 8
-	},
-/area/tech_outpost)
+/turf/simulated/floor/carpet/blue/fancy/edge,
+/area/shitty_villa)
 "awU" = (
 /obj/decal/cleanable/robot_debris,
 /obj/machinery/bot/medbot/terrifying,
@@ -8642,25 +8640,21 @@
 /turf/simulated/floor/airless/plating/damaged2,
 /area/abandonedmedicalship)
 "awV" = (
-/turf/simulated/floor/yellow/side{
+/obj/machinery/light{
 	dir = 8
 	},
-/area/tech_outpost)
-"awW" = (
-/turf/simulated/floor/caution/corner/sw,
-/area/tech_outpost)
-"awX" = (
-/obj/stool/chair,
-/turf/simulated/floor/caution/south,
-/area/tech_outpost)
-"awY" = (
-/turf/simulated/floor/caution/south,
-/area/tech_outpost)
-"awZ" = (
-/turf/simulated/floor{
-	icon_state = "corner_east"
+/turf/simulated/floor/carpet/red/fancy/edge{
+	dir = 8
 	},
-/area/tech_outpost)
+/area/shitty_villa)
+"awX" = (
+/turf/simulated/floor/carpet/red/fancy,
+/area/shitty_villa)
+"awY" = (
+/turf/simulated/floor/carpet/red/fancy/edge{
+	dir = 4
+	},
+/area/shitty_villa)
 "axa" = (
 /obj/decal/cleanable/machine_debris,
 /obj/decal/floatingtiles{
@@ -8672,66 +8666,46 @@
 /turf/simulated/floor/airless/plating/damaged2,
 /area/abandonedmedicalship)
 "axb" = (
-/obj/table/auto,
-/obj/item/clothing/gloves/yellow,
-/obj/item/clothing/gloves/yellow,
-/obj/item/device/t_scanner,
-/obj/item/device/t_scanner,
-/turf/simulated/floor/yellow/side{
+/obj/loudspeaker,
+/turf/simulated/floor/carpet/red/fancy/edge{
 	dir = 10
 	},
-/area/tech_outpost)
+/area/shitty_villa)
 "axc" = (
-/obj/table/auto,
-/obj/item/storage/box/lightbox/tubes,
-/obj/item/storage/box/lightbox/tubes,
-/obj/item/device/multitool,
-/obj/item/device/multitool,
-/obj/item/device/multitool,
-/obj/item/device/multitool,
-/turf/simulated/floor/yellow/side,
-/area/tech_outpost)
+/obj/table/wood/auto/desk,
+/obj/machinery/computer/security/wooden_tv,
+/turf/simulated/floor/carpet/red/fancy/edge,
+/area/shitty_villa)
 "axd" = (
-/obj/table/auto,
-/obj/item/storage/toolbox/electrical,
-/obj/item/storage/toolbox/electrical,
-/obj/item/storage/toolbox/electrical,
-/obj/item/electronics/scanner,
-/turf/simulated/floor/yellow/side,
-/area/tech_outpost)
+/obj/table/wood/auto/desk,
+/obj/machinery/computer/security/wooden_tv{
+	desc = "These channels seem to mostly be about robuddies. What is this, some kind of reality show?";
+	name = "Television"
+	},
+/turf/simulated/floor/carpet/red/fancy/edge,
+/area/shitty_villa)
 "axe" = (
-/obj/table/auto,
-/obj/machinery/cell_charger,
-/obj/item/cell/supercell/charged,
-/obj/item/cell/supercell/charged,
-/obj/item/cell/supercell/charged,
-/obj/item/cell/supercell/charged,
-/obj/machinery/light/small,
-/turf/simulated/floor/yellow/side,
-/area/tech_outpost)
-"axf" = (
-/obj/machinery/vending/standard,
-/turf/simulated/floor/yellow/side,
-/area/tech_outpost)
-"axg" = (
-/obj/machinery/portable_reclaimer,
-/turf/simulated/floor/yellow/side,
-/area/tech_outpost)
-"axh" = (
-/obj/machinery/manufacturer/mechanic,
-/turf/simulated/floor/yellow/side,
-/area/tech_outpost)
-"axi" = (
-/obj/machinery/rkit,
-/obj/machinery/light/small,
-/turf/simulated/floor/yellow/side,
-/area/tech_outpost)
-"axj" = (
-/obj/machinery/vending/mechanics,
-/turf/simulated/floor/yellow/side{
+/obj/loudspeaker,
+/turf/simulated/floor/carpet/red/fancy/edge{
 	dir = 6
 	},
-/area/tech_outpost)
+/area/shitty_villa)
+"axf" = (
+/obj/machinery/light,
+/turf/unsimulated/floor/wood/eight{
+	dir = 4
+	},
+/area/shitty_villa)
+"axj" = (
+/obj/shrub{
+	dir = 8;
+	icon = 'icons/obj/stationobjs.dmi';
+	icon_state = "plant"
+	},
+/turf/unsimulated/floor/wood/eight{
+	dir = 4
+	},
+/area/shitty_villa)
 "axk" = (
 /obj/decal/cleanable/cobweb2,
 /obj/item/device/transfer_valve/briefcase,
@@ -9340,7 +9314,7 @@
 	icon = 'icons/misc/evilreaverstation.dmi';
 	icon_state = "old_rwall"
 	},
-/area/tech_outpost)
+/area/shitty_villa)
 "ayE" = (
 /obj/item/device/radio,
 /obj/storage/crate/loot,
@@ -9864,10 +9838,14 @@
 /turf/simulated/floor/plating/damaged3,
 /area/spyshack)
 "azM" = (
-/obj/machinery/door/airlock/classic,
+/obj/machinery/door/airlock/classic{
+	icon_state = "door_locked";
+	locked = 1
+	},
 /turf/simulated/floor/plating/damaged2,
-/area/tech_outpost)
+/area/shitty_villa)
 "azN" = (
+/obj/structure/woodwall,
 /turf/simulated/floor/stairs{
 	dir = 8
 	},
@@ -25523,6 +25501,101 @@
 /obj/item/reagent_containers/food/snacks/breakfast,
 /turf/simulated/floor/caution/west,
 /area/mining/quarters)
+"dTd" = (
+/turf/unsimulated/floor/wood/eight{
+	dir = 4
+	},
+/area/shitty_villa)
+"eVZ" = (
+/obj/stool/bar,
+/turf/simulated/floor/carpet/blue/fancy/edge{
+	dir = 9
+	},
+/area/shitty_villa)
+"fcO" = (
+/turf/simulated/floor,
+/area/shitty_villa)
+"fQB" = (
+/obj/machinery/computer3/generic/personal/radioship,
+/obj/table/glass/reinforced/auto,
+/obj/machinery/power/data_terminal,
+/obj/cable{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/turf/simulated/floor,
+/area/shitty_villa)
+"gga" = (
+/obj/table/glass/reinforced/auto,
+/turf/simulated/floor,
+/area/shitty_villa)
+"gQe" = (
+/obj/machinery/vending/alcohol,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/blue/fancy/edge{
+	dir = 6
+	},
+/area/shitty_villa)
+"hmj" = (
+/obj/table/reinforced/bar/auto,
+/turf/simulated/floor/carpet/blue/fancy/edge,
+/area/shitty_villa)
+"hpc" = (
+/turf/simulated/floor/carpet/red/fancy/edge{
+	dir = 9
+	},
+/area/shitty_villa)
+"jUg" = (
+/obj/grille/steel,
+/obj/window/reinforced{
+	dir = 8
+	},
+/obj/window/reinforced{
+	dir = 4
+	},
+/obj/window/reinforced{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/shitty_villa)
+"kfa" = (
+/obj/stool/bar,
+/turf/simulated/floor/carpet/blue/fancy/edge{
+	dir = 8
+	},
+/area/shitty_villa)
+"kqg" = (
+/obj/machinery/navbeacon/guardbot_buddytime,
+/turf/unsimulated/floor/wood/eight{
+	dir = 4
+	},
+/area/shitty_villa)
+"mTw" = (
+/obj/stool/bar,
+/turf/simulated/floor/carpet/blue/fancy/edge{
+	dir = 10
+	},
+/area/shitty_villa)
+"ope" = (
+/obj/table/reinforced/bar/auto,
+/turf/simulated/floor/carpet/blue/fancy,
+/area/shitty_villa)
+"qRG" = (
+/obj/grille/steel,
+/obj/window/reinforced{
+	dir = 8
+	},
+/obj/window/reinforced{
+	dir = 4
+	},
+/obj/window/reinforced{
+	dir = 2
+	},
+/obj/machinery/light,
+/turf/simulated/floor/plating,
+/area/shitty_villa)
 "rdq" = (
 /obj/decal/cleanable/gangtag{
 	icon_state = "gangtag22";
@@ -25534,10 +25607,61 @@
 	},
 /turf/simulated/floor/black,
 /area/mining/quarters)
+"sMR" = (
+/turf/simulated/floor/carpet/blue/fancy/edge{
+	dir = 1
+	},
+/area/shitty_villa)
+"tkm" = (
+/turf/simulated/floor/carpet/red/fancy/edge{
+	dir = 5
+	},
+/area/shitty_villa)
 "vrI" = (
 /obj/stool/chair,
 /turf/simulated/floor/black,
 /area/mining/quarters)
+"vGL" = (
+/obj/table/reinforced/bar/auto,
+/obj/item/storage/box/glassbox{
+	pixel_x = -3;
+	pixel_y = 20
+	},
+/obj/item/storage/box/glassbox{
+	pixel_x = 3;
+	pixel_y = 20
+	},
+/turf/simulated/floor/carpet/blue/fancy,
+/area/shitty_villa)
+"wxQ" = (
+/obj/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor,
+/area/shitty_villa)
+"xsI" = (
+/obj/stool/chair/couch/red{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/red/fancy/edge{
+	dir = 1
+	},
+/area/shitty_villa)
+"xJU" = (
+/obj/stool/chair/couch/red{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/red/fancy/edge{
+	dir = 1
+	},
+/area/shitty_villa)
 
 (1,1,1) = {"
 aaa
@@ -66108,9 +66232,9 @@ avt
 avJ
 auy
 awt
-avy
-avy
-avx
+dTd
+dTd
+hpc
 awV
 axb
 auy
@@ -66409,11 +66533,11 @@ auy
 avu
 avK
 awe
-avy
-awE
-awO
-awO
-awW
+dTd
+dTd
+dTd
+xsI
+awX
 axc
 avh
 aac
@@ -66711,10 +66835,10 @@ auy
 avv
 avL
 auy
-awu
-awF
-awP
-awP
+dTd
+dTd
+dTd
+xJU
 awX
 axd
 avi
@@ -67014,9 +67138,9 @@ auy
 auy
 auy
 awv
-awF
-awP
-awP
+dTd
+dTd
+tkm
 awY
 axe
 auy
@@ -67314,12 +67438,12 @@ aab
 auy
 avw
 avM
-awf
-aww
-awF
-awP
-awP
-awY
+dTd
+dTd
+kqg
+dTd
+dTd
+dTd
 axf
 auy
 aab
@@ -67614,15 +67738,15 @@ aab
 aac
 aac
 avh
-avx
-avN
-awg
 avy
-awF
-awP
-awP
-awY
-axg
+dTd
+dTd
+eVZ
+kfa
+kfa
+mTw
+dTd
+dTd
 auy
 aab
 aab
@@ -67917,14 +68041,14 @@ aac
 auz
 avi
 avy
-avy
-awh
+dTd
+dTd
 awx
-awF
-awP
-awP
-awY
-axh
+ope
+vGL
+hmj
+dTd
+dTd
 auy
 aab
 aab
@@ -68219,14 +68343,14 @@ aac
 auq
 auy
 avz
-avy
-awi
-awx
-awG
+dTd
+dTd
+sMR
+awQ
 awQ
 awT
-awZ
-axi
+dTd
+dTd
 auy
 aab
 aab
@@ -68522,12 +68646,12 @@ aur
 auy
 avA
 avO
-awj
+dTd
 awy
 awH
 awR
-avh
-awl
+gQe
+dTd
 axj
 auy
 aab
@@ -69126,8 +69250,8 @@ auW
 auF
 avB
 avP
-avQ
-avQ
+fcO
+awI
 awI
 auy
 art
@@ -69426,9 +69550,9 @@ auy
 auG
 auX
 avj
-avC
+avF
 avQ
-avQ
+wxQ
 awz
 awJ
 ayD
@@ -69730,8 +69854,8 @@ auY
 avk
 auy
 avR
-avQ
-avQ
+fcO
+fcO
 awK
 ayD
 azI
@@ -70032,9 +70156,9 @@ auZ
 avl
 auy
 avS
-avQ
-avQ
-awI
+fcO
+gga
+fQB
 ayD
 azJ
 aJY
@@ -70335,8 +70459,8 @@ auy
 auy
 auy
 awk
-auy
-auy
+jUg
+qRG
 auy
 art
 arP
@@ -71540,11 +71664,11 @@ auz
 auL
 aab
 auy
-avF
 avE
 avE
 avE
-awM
+avE
+avE
 auy
 arO
 arN
@@ -71842,11 +71966,11 @@ aab
 auL
 aab
 auy
+awM
 avE
 avE
 avE
-avE
-avE
+awM
 auy
 azL
 ash

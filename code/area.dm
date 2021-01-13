@@ -1097,6 +1097,10 @@ ABSTRACT_TYPE(/area/diner)
 	name = "Tech Outpost"
 	icon_state = "storage"
 
+/area/shitty_villa
+	name = "Shitty Vill-a"
+	icon_state = "orange"
+
 // Gore's Z5 Space generation areas //
 ABSTRACT_TYPE(/area/prefab)
 /area/prefab
