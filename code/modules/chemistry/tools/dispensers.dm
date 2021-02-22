@@ -477,7 +477,7 @@
 
 			if (istype(W,/obj/item/reagent_containers/food/snacks/snack_cake) || istype(W,/obj/item/reagent_containers/food/snacks/burrito))
 				if(islist(brew_result))
-					W:brew_result += F.reagents.reagent_list
+					brew_result += F.reagents.reagent_list
 
 		else if(istype(W, /obj/item/plant))
 			var/obj/item/plant/P = W
@@ -489,12 +489,12 @@
 
 		if (islist(brew_result) && length(brew_result))
 			for (var/i in brew_result)
-				src.reagents.add_reagent(i, 20/length(brew_result)) // HUGE FUCKING NERF TO OMEGA WEED, AND EVERY SNACK CAKE AND BURRITO!!!
-				if(length(src.random_reagents_list))
+				src.reagents.add_reagent(i, 20) // Why has it always been like this omegaweed makes a shitton of chem
+				if(length(src.random_reagents_list)) // should this be an A or B not A AND B?
 					src.reagents.add_reagent(pick(random_reagents_list), 20/length(brew_result))
 		else
 			src.reagents.add_reagent(brew_result, 20)
-			if(length(src.random_reagents_list))
+			if(length(src.random_reagents_list)) // should this be an A or B ... not A AND B? Same for above
 				src.reagents.add_reagent(pick(random_reagents_list), 20)
 
 		src.visible_message("<span class='notice'>[src] brews up [W]!</span>")
@@ -584,7 +584,7 @@
 			user.show_text("No way man, you'll clog the pipes with that stuff!", "red") // why not alert text?
 			return 0
 
-		..() // Call your parents
+		return ..() // Call your parents
 
 /* ==================================================== */
 /* --------------- Water Cooler Bottle ---------------- */
