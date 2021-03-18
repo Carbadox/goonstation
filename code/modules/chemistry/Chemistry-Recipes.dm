@@ -1144,20 +1144,16 @@ datum
 			name = "Black Russian"
 			id = "b_russian"
 			result = "b_russian"
-			required_reagents = list("vodka" = 1, "coffee" = 1)
+			required_reagents = list("vodka" = 1, "coffeeliquer" = 1)
 			result_amount = 2
 			mix_phrase = "The drink turns a deep brown as the coffee settles in."
 			mix_sound = 'sound/misc/drinkfizz.ogg'
-
-		cocktail_b_russian/espresso
-			id = "b_russian_espresso"
-			required_reagents = list("vodka" = 1, "espresso" = 1)
 
 		cocktail_w_russian
 			name = "White Russian"
 			id = "w_russian"
 			result = "w_russian"
-			required_reagents = list("vodka" = 1, "coffee" = 1, "milk" = 1)
+			required_reagents = list("vodka" = 1, "coffeeliquer" = 1, "cream" = 1)
 			result_amount = 3
 			mix_phrase = "The drink abides."
 			mix_sound = 'sound/misc/drinkfizz.ogg'
@@ -1171,7 +1167,7 @@ datum
 			name = "Irish Coffee"
 			id = "irishcoffee"
 			result = "irishcoffee"
-			required_reagents = list("coffee" = 1, "bourbon" = 1, "milk" = 1, "sugar" = 1)
+			required_reagents = list("coffeeliquer" = 1, "bourbon" = 1, "milk" = 1, "sugar" = 1)
 			result_amount = 4
 			mix_phrase = "The drink turns a rich brown and smells like a hangover."
 			mix_sound = 'sound/misc/drinkfizz.ogg'
@@ -1225,7 +1221,7 @@ datum
 			name = "Mind Eraser"
 			id = "eraser"
 			result = "eraser"
-			required_reagents = list("vtonic" = 1, "coffee" = 1)
+			required_reagents = list("vtonic" = 1, "coffeeliquer" = 1)
 			result_amount = 2
 			mix_phrase = "The coffee, tonic, and vodka separate into dangerously drinkable layers."
 			mix_sound = 'sound/misc/drinkfizz.ogg'
@@ -1306,7 +1302,7 @@ datum
 			name = "Brave Bull"
 			id = "bull"
 			result = "bull"
-			required_reagents = list("tequila" = 1, "coffee" = 1)
+			required_reagents = list("tequila" = 1, "coffeeliquer" = 1)
 			result_amount = 2
 			mix_phrase = "The coffee and tequila mix together. Liqueur? Who needs it?"
 			mix_sound = 'sound/misc/drinkfizz.ogg'
@@ -1620,7 +1616,7 @@ datum
 			name = "Duck Fart"
 			id = "duckfart"
 			result = "duckfart"
-			required_reagents = list("bourbon" = 1, "coffee" =1 , "milk" = 1)
+			required_reagents = list("bourbon" = 1, "coffeeliquer" =1 , "milk" = 1)
 			result_amount = 3
 			mix_phrase = "You hear a faint quack from the solution along with a pungent stretch"
 			mix_sound = 'sound/voice/farts/fart3.ogg'
@@ -3955,6 +3951,16 @@ datum
 			required_reagents = list("martini" = 1, "nicotine" = 1)
 			result_amount = 2
 			mix_phrase = "The drink fizzes and turns into a bland violent color. James Bond is crying."
+
+		cocktail_coffeeliquer
+		name = "Aloha coffee liquer"
+		id = "coffeeliquer"
+		result = "coffeeliquer"
+		required_reagents = list("coffee" = 1, "vodka" = 1, "sugar" = 1)
+
+		cocktail_coffeeliquer/espresso
+		id = "coffeeliquer_espresso"
+		required_reagents = list("espresso" = 1, "vodka" = 1, "sugar" = 1)
 
 		lime //CaCO3 -> CaO + CO2
 			name = "calcium oxide"

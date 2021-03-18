@@ -3790,7 +3790,7 @@ datum
 					M.reagents.add_reagent("ethanol", (alch_counter + (rand(2,3))))
 
 		fooddrink/alcoholic/hottoddy
-			name = "hot Toddy"
+			name = "hot toddy"
 			id = "hottoddy"
 			fluid_r = 255
 			fluid_g = 220
@@ -3848,7 +3848,7 @@ datum
 			reagent_state = LIQUID
 
 		fooddrink/alcoholic/beesknees
-			name = "Bee's Knees"
+			name = "bee's knees"
 			id = "beesknees"
 			fluid_r = 255
 			fluid_g = 236
@@ -3856,3 +3856,20 @@ datum
 			alch_strength = 0.3
 			description = "A cocktail from the prohibition era, named after a popular expression."
 			reagent_state = LIQUID
+
+		fooddrink/alcoholic/coffeeliquer
+			name = "Aloha coffee liquer"
+			id = "coffeeliquer"
+			fluid_r = 49
+			fluid_g = 12
+			fluid_b = 12
+			alch_strength = 0.2
+			description = "A sweetened liqeur made out of coffee"
+
+		fooddrink/cream
+			name = "cream"
+			id = "cream"
+			fluid_r = 255
+			fluid_g = 239
+			fluid_b = 219
+			description = "A thick and rich cream made from dairy milk"
