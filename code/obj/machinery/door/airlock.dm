@@ -1348,6 +1348,13 @@ About the new airlock wires panel:
 		..(user)
 	return
 
+/obj/machinery/door/airlock/proc/doorpanel(obj/item/C, mob/user)
+	boutput(user, "You open the maintance panel on the (src).")
+	playsound(src.loc, "sound/items/Screwdriver.ogg", 25, 1)
+	src.p_open = !(src.p_open)
+	tgui_process.update_uis(src)
+	src.update_icon()
+
 /obj/machinery/door/airlock/attackby(obj/item/C as obj, mob/user as mob)
 	//boutput(world, text("airlock attackby src [] obj [] mob []", src, C, user))
 
@@ -1395,9 +1402,8 @@ About the new airlock wires panel:
 		if (!src.has_panel)
 			boutput(user, "<span class='alert'>[src] does not have a panel for you to unscrew!</span>")
 			return
-		src.p_open = !(src.p_open)
-		tgui_process.update_uis(src)
-		src.update_icon()
+		SETUP_GENERIC_ACTIONBAR(user, src, 0.5 SECONDS, /obj/machinery/door/airlock/proc/doorpanel,\
+		list(user, src), C.icon, C.icon_state, null, null)
 	else if (issnippingtool(C) && src.p_open)
 		return src.attack_hand(user)
 	else if (ispulsingtool(C))
