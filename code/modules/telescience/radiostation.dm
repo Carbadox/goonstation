@@ -663,6 +663,21 @@ ABSTRACT_TYPE(/obj/item/record/random/notaquario)
 	song = "sound/radio_station/music/core_of_poo.ogg"
 	color = "#DE9F47"
 
+/obj/item/record/carbadox/rubber_rims
+	record_name = "Rubber Rims"
+	song = "sound/radio_station/music/Rubber_Rims.ogg"
+	color = "#3960e2"
+
+/obj/item/record/carbadox/white_walled_wheels
+	record_name = "White Walled Wheels"
+	song = "sound/radio_station/music/White_Walled_Wheels.ogg"
+	color = "#3960e2"
+
+/obj/item/record/carbadox/dgim
+	record_name = "DGiM"
+	song = "sound/radio_station/music/DGiM.ogg"
+	color = "#3960e2"
+
 // Record sets
 /obj/item/storage/box/record
 	name = "record sleeve"
@@ -744,6 +759,13 @@ ABSTRACT_TYPE(/obj/item/record/random/notaquario)
 	/obj/item/record/random/notaquario/beaches,
 	/obj/item/record/random/notaquario/floaty,
 	/obj/item/record/random/notaquario/biodome)
+
+/obj/item/storage/box/record/carbadox
+	name = "\improper Carbadox's Crappy Collection : Synthwave Edition"
+	desc = "Wow, what a 'collection'. There's only 3 records in this sleeve. And you're pretty sure that album cover is some stolen copyright art."
+	spawn_contents = list(/obj/item/record/carbadox/rubber_rims,
+	/obj/item/record/carbadox/white_walled_wheels,
+	/obj/item/record/carbadox/dgim)
 
 /obj/item/storage/box/record/radio/host
 	desc = "A sleeve of exclusive radio station songs."
