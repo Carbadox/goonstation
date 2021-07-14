@@ -468,3 +468,17 @@ ABSTRACT_TYPE(/datum/generatorPrefab)
 		prefabPath = "assets/maps/prefabs/prefab_water_crashed.dmm"
 		prefabSizeX = 24
 		prefabSizeY = 32
+
+	ghost_drone_factory
+		maxNum = 1
+		probability = 100
+		prefabPath = "assets/maps/prefabs/prefab_ghostdrone_factory.dmm"
+		prefabSizeX = 20
+		prefabSizeY = 31
+	ghost_drone_factory_water
+		underwater = 1
+		maxNum = 1
+		probability = 100
+		prefabPath = "assets/maps/prefabs/prefab_ghostdrone_factory.dmm"
+		prefabSizeX = 23
+		prefabSizeY = 16

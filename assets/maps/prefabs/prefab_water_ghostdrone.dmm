@@ -1,0 +1,86 @@
+"bb" = (/obj/disposalpipe/segment{dir = 4; name = "factory pipe"},/turf/simulated/floor/grime,/area/ghostdrone_factory)
+"be" = (/obj/machinery/light/incandescent/netural,/turf/simulated/floor/plating/random,/area/ghostdrone_factory)
+"bW" = (/obj/machinery/conveyor/east{id = "ghostdrone"},/turf/simulated/floor/plating/random,/area/ghostdrone_factory)
+"db" = (/obj/disposalpipe/segment{dir = 4; icon_state = "pipe-c"; name = "factory pipe"},/turf/simulated/wall/auto/supernorn,/area/ghostdrone_factory)
+"dO" = (/obj/machinery/conveyor/south{id = "ghostdrone"},/turf/simulated/floor/plating/random,/area/ghostdrone_factory)
+"ew" = (/obj/decal/cleanable/oil,/turf/simulated/floor/plating/random,/area/ghostdrone_factory)
+"go" = (/obj/disposalpipe/segment{name = "factory pipe"},/turf/simulated/floor/grime,/area/ghostdrone_factory)
+"gr" = (/turf/simulated/floor/damaged2,/area/ghostdrone_factory)
+"gW" = (/obj/table/wood/auto,/obj/random_item_spawner/tools,/turf/simulated/floor/plating/random,/area/ghostdrone_factory)
+"hh" = (/obj/disposalpipe/segment{dir = 4; name = "factory pipe"},/turf/simulated/floor/plating/random,/area/ghostdrone_factory)
+"io" = (/obj/stool/chair/comfy,/turf/simulated/floor/carpet/red/standard/edge/nw,/area/ghostdrone_factory)
+"ix" = (/obj/disposalpipe/segment{dir = 1; icon_state = "pipe-c"; name = "factory pipe"},/turf/simulated/floor/grime,/area/ghostdrone_factory)
+"je" = (/obj/disposalpipe/segment{dir = 8; icon_state = "pipe-c"; name = "factory pipe"},/turf/simulated/floor/scorched,/area/ghostdrone_factory)
+"jn" = (/obj/machinery/abcu,/turf/simulated/floor/plating/random,/area/ghostdrone_factory)
+"jS" = (/obj/machinery/conveyor/west{id = "ghostdrone"},/obj/machinery/ghostdrone_factory/part3,/turf/simulated/floor/plating/random,/area/ghostdrone_factory)
+"km" = (/obj/table/auto,/obj/item/sheet/steel/fullstack,/obj/item/rods/steel/fullstack,/turf/simulated/floor/grime,/area/ghostdrone_factory)
+"mv" = (/obj/table/wood/auto,/obj/item/plate,/obj/item/reagent_containers/food/snacks/burger/moldy,/obj/machinery/light/incandescent/netural,/turf/simulated/floor/carpet/red/standard/edge/west,/area/ghostdrone_factory)
+"mz" = (/turf/simulated/floor/damaged4,/area/ghostdrone_factory)
+"mD" = (/obj/table/wood/auto,/obj/random_item_spawner/tools,/turf/simulated/floor/grime,/area/ghostdrone_factory)
+"mR" = (/turf/simulated/floor/carpet/red/standard/edge/east,/area/ghostdrone_factory)
+"pZ" = (/obj/disposalpipe/segment{dir = 8; icon_state = "pipe-c"; name = "factory pipe"},/turf/simulated/floor/grime,/area/ghostdrone_factory)
+"ry" = (/turf/simulated/wall/auto/reinforced/supernorn,/area/ghostdrone_factory)
+"sm" = (/turf/simulated/floor/plating/random,/area/ghostdrone_factory)
+"sw" = (/turf/simulated/floor/carpet/red/standard/edge/se,/area/ghostdrone_factory)
+"vm" = (/obj/table/auto,/obj/item/sheet/glass/reinforced/fullstack,/obj/item/light/tube,/obj/item/light/tube,/obj/item/light/tube,/turf/simulated/floor/grime,/area/ghostdrone_factory)
+"vI" = (/obj/disposalpipe/segment{dir = 2; icon_state = "pipe-c"; name = "factory pipe"},/turf/simulated/wall/auto/supernorn,/area/ghostdrone_factory)
+"wa" = (/obj/decal/cleanable/dirt,/obj/stool/chair/comfy,/turf/simulated/floor/carpet/red/standard/edge/north,/area/ghostdrone_factory)
+"wb" = (/obj/machinery/conveyor/west{id = "ghostdrone"},/obj/machinery/ghostdrone_factory,/turf/simulated/floor/plating/random,/area/ghostdrone_factory)
+"wl" = (/turf/simulated/floor/grime,/area/ghostdrone_factory)
+"wv" = (/turf/simulated/floor/scorched,/area/ghostdrone_factory)
+"wH" = (/obj/decal/cleanable/dirt,/obj/table/auto,/obj/item/sheet/steel/fullstack,/obj/item/light/bulb,/obj/item/light/bulb,/turf/simulated/floor/grime,/area/ghostdrone_factory)
+"wX" = (/obj/machinery/ghost_catcher,/turf/simulated/floor/plating/random,/area/ghostdrone_factory)
+"xf" = (/obj/machinery/conveyor/west{id = "ghostdrone"},/obj/machinery/ghostdrone_factory/part2,/turf/simulated/floor/plating/random,/area/ghostdrone_factory)
+"xP" = (/obj/disposalpipe/junction{dir = 1; icon_state = "pipe-j2"; name = "factory pipe"},/turf/simulated/floor/grime,/area/ghostdrone_factory)
+"yf" = (/obj/decal/cleanable/dirt,/obj/disposalpipe/segment{dir = 4; name = "factory pipe"},/turf/simulated/floor/grime,/area/ghostdrone_factory)
+"yW" = (/obj/storage/crate/abcumarker,/turf/simulated/floor/plating/random,/area/ghostdrone_factory)
+"yY" = (/obj/decal/cleanable/oil,/obj/disposalpipe/segment{dir = 4; name = "factory pipe"},/turf/simulated/floor/grime,/area/ghostdrone_factory)
+"AT" = (/obj/machinery/door/airlock/pyro,/turf/simulated/floor/plating,/area/ghostdrone_factory)
+"Cg" = (/obj/machinery/drone_recharger/factory,/turf/simulated/floor/plating/random,/area/ghostdrone_factory)
+"Co" = (/obj/disposalpipe/block_sensing_outlet{dir = 4},/turf/simulated/wall/auto/supernorn,/area/ghostdrone_factory)
+"CC" = (/obj/table/auto,/obj/item/sheet/glass/fullstack,/obj/item/rods/steel/fullstack,/turf/simulated/floor/plating/random,/area/ghostdrone_factory)
+"CE" = (/obj/machinery/drainage/big,/turf/simulated/floor/plating/random,/area/ghostdrone_factory)
+"Ee" = (/obj/decal/cleanable/dirt,/turf/simulated/floor/grime,/area/ghostdrone_factory)
+"En" = (/obj/machinery/drone_recharger/factory,/turf/simulated/floor/grime,/area/ghostdrone_factory)
+"EM" = (/turf/space,/area/noGenerate)
+"Fj" = (/obj/machinery/door/airlock/pyro/external{dir = 4},/turf/simulated/floor/plating/random,/area/ghostdrone_factory)
+"Fm" = (/obj/table/auto,/obj/item/sheet/steel/reinforced/fullstack,/obj/item/light/tube,/obj/item/light/tube,/obj/item/light/tube,/turf/simulated/floor/plating,/area/ghostdrone_factory)
+"Gl" = (/obj/disposalpipe/segment{dir = 4; name = "factory pipe"},/turf/simulated/wall/auto/supernorn,/area/ghostdrone_factory)
+"Hp" = (/turf/variableTurf/clear,/area/space)
+"IC" = (/obj/disposalpipe/type_sensing_outlet/drone_factory{dir = 4},/turf/simulated/wall/auto/supernorn,/area/ghostdrone_factory)
+"KN" = (/obj/stool/chair/comfy{dir = 1},/turf/simulated/floor/carpet/red/standard/edge/south,/area/ghostdrone_factory)
+"Ll" = (/obj/decal/cleanable/dirt,/turf/simulated/floor/plating/random,/area/ghostdrone_factory)
+"Ls" = (/obj/table/auto,/obj/item/sheet/glass/fullstack,/obj/item/light/bulb,/obj/item/light/bulb,/turf/simulated/floor/grime,/area/ghostdrone_factory)
+"Lx" = (/obj/disposalpipe/trunk{dir = 4; name = "factory pipe"},/obj/machinery/floorflusher/industrial,/turf/simulated/floor/plating/random,/area/ghostdrone_factory)
+"LX" = (/obj/machinery/light/incandescent/netural,/turf/simulated/floor/grime,/area/ghostdrone_factory)
+"MK" = (/obj/machinery/door/airlock/pyro/external,/turf/simulated/floor/plating/random,/area/ghostdrone_factory)
+"Pv" = (/turf/simulated/floor/carpet/red/standard/edge/ne,/area/ghostdrone_factory)
+"Qy" = ()
+"Ss" = (/obj/machinery/door/airlock/pyro{dir = 4},/turf/simulated/floor/plating,/area/ghostdrone_factory)
+"SS" = (/obj/disposalpipe/segment{dir = 2; icon_state = "pipe-c"; name = "factory pipe"},/turf/simulated/floor/plating/random,/area/ghostdrone_factory)
+"Tv" = (/obj/wingrille_spawn/auto,/turf/simulated/floor/plating,/area/ghostdrone_factory)
+"UI" = (/obj/decal/cleanable/dirt,/obj/stool/chair/comfy{dir = 1},/turf/simulated/floor/carpet/red/standard/edge/sw,/area/ghostdrone_factory)
+"Vc" = (/turf/simulated/wall/auto/supernorn,/area/ghostdrone_factory)
+"Xh" = (/obj/machinery/conveyor/west{id = "ghostdrone"},/turf/simulated/floor/plating/random,/area/ghostdrone_factory)
+"YT" = (/obj/decal/cleanable/cobweb2,/obj/machinery/abcu,/turf/simulated/floor/plating/random,/area/ghostdrone_factory)
+"ZK" = (/obj/table/wood/auto,/obj/random_item_spawner/desk_stuff,/turf/simulated/floor/carpet/red,/area/ghostdrone_factory)
+"ZQ" = (/obj/machinery/door/airlock/pyro/external{dir = 4},/turf/simulated/floor/plating,/area/ghostdrone_factory)
+
+(1,1,1) = {"
+HpHpHpHpHpEMEMEMEMEMHpHpHpHpHpHpHpHpHpHpHpHpHp
+HpHpHpHpHpEMryMKryEMEMEMEMEMEMEMEMEMHpHpHpHpHp
+HpHpHpHpHpEMryCEryEMryTvTvTvTvTvryEMHpHpHpHpHp
+HpHpHpHpHpryryMKryryryyWsmLljnYTryryryHpHpHpHp
+HpEMEMEMryryryewsmbesmsmsmsmsmsmsmLlryHpHpHpHp
+EMEMEMryrymDrysmsmsmLlsmsmsmsmsmsmsmryEMEMEMEM
+EMEMryrywlsmryVcATdbGlvIVcdbGlvIATVcryryryEMEM
+EMEMTviowaPvrywlsmCoCgCoEnCoCgICEesmrysmryryEM
+EMEMTvmvZKmRSswlmzgowlixhhpZsmixSSwlFjsmCEZQEM
+EMEMTvUIKNswrysmwlixyfhhbbyYbbbbxPgrrysmryryEM
+EMEMryrywvwlrykmwldOjSXhxfXhwbwXgovmryryryEMEM
+EMEMEMryrygWryFmwlbWbWbWbWbWLxhhjeLsryEMEMEMEM
+HpEMEMEMryryrywHwlLXwlsmwlwlwlbewlCCryHpHpHpHp
+HpHpHpHpHpryryryryryryryryryryryryryryHpHpHpHp
+HpHpHpHpHpHpHpHpHpHpHpHpHpHpHpHpHpHpHpHpHpHpHp
+QyHpHpHpHpHpHpHpHpHpHpHpHpHpHpHpHpHpHpHpHpHpHp
+"}

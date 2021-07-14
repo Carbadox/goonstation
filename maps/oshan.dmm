@@ -1224,24 +1224,6 @@
 	icon_state = "fred2"
 	},
 /area/station/science/research_director)
-"acC" = (
-/obj/disposalpipe/block_sensing_outlet{
-	dir = 4
-	},
-/turf/simulated/wall/auto/supernorn,
-/area/ghostdrone_factory)
-"acD" = (
-/obj/disposalpipe/segment{
-	name = "factory pipe"
-	},
-/turf/simulated/floor/grime,
-/area/ghostdrone_factory)
-"acE" = (
-/obj/disposalpipe/type_sensing_outlet/drone_factory{
-	dir = 4
-	},
-/turf/simulated/wall/auto/supernorn,
-/area/ghostdrone_factory)
 "acF" = (
 /obj/stool/bench/blue,
 /obj/machinery/camera{
@@ -9676,14 +9658,6 @@
 /obj/machinery/atmospherics/valve,
 /turf/simulated/floor/blue,
 /area/research_outpost/toxins)
-"awD" = (
-/obj/disposalpipe/segment{
-	dir = 2;
-	icon_state = "pipe-c";
-	name = "factory pipe"
-	},
-/turf/simulated/floor/plating/random,
-/area/ghostdrone_factory)
 "awE" = (
 /obj/table/auto,
 /obj/item/wrench,
@@ -9750,12 +9724,6 @@
 	},
 /turf/simulated/floor/black,
 /area/station/science/lobby)
-"awK" = (
-/obj/machinery/conveyor/south{
-	id = "ghostdrone"
-	},
-/turf/simulated/floor/plating/random,
-/area/ghostdrone_factory)
 "awL" = (
 /obj/disposalpipe/segment/mail,
 /obj/machinery/firealarm{
@@ -9983,19 +9951,6 @@
 	},
 /turf/simulated/floor/purple/checker,
 /area/station/science/chemistry)
-"axl" = (
-/obj/machinery/conveyor/west{
-	id = "ghostdrone"
-	},
-/obj/machinery/ghostdrone_factory/part3,
-/turf/simulated/floor/plating/random,
-/area/ghostdrone_factory)
-"axm" = (
-/obj/machinery/conveyor/west{
-	id = "ghostdrone"
-	},
-/turf/simulated/floor/plating/random,
-/area/ghostdrone_factory)
 "axn" = (
 /obj/disposalpipe/segment,
 /obj/machinery/firealarm{
@@ -10179,13 +10134,6 @@
 	},
 /turf/simulated/floor/green/side,
 /area/station/turret_protected/Zeta)
-"axI" = (
-/obj/machinery/conveyor/west{
-	id = "ghostdrone"
-	},
-/obj/machinery/ghostdrone_factory/part2,
-/turf/simulated/floor/plating/random,
-/area/ghostdrone_factory)
 "axJ" = (
 /obj/decal/tile_edge/line/green{
 	dir = 6;
@@ -11184,13 +11132,6 @@
 	},
 /turf/simulated/floor,
 /area/station/hallway/primary/north)
-"azN" = (
-/obj/machinery/conveyor/west{
-	id = "ghostdrone"
-	},
-/obj/machinery/ghostdrone_factory,
-/turf/simulated/floor/plating/random,
-/area/ghostdrone_factory)
 "azO" = (
 /obj/machinery/disposal/brig,
 /obj/disposalpipe/trunk/brig,
@@ -11903,12 +11844,6 @@
 "aBz" = (
 /turf/simulated/wall/auto/supernorn,
 /area/station/crew_quarters/arcade/dungeon)
-"aBA" = (
-/obj/machinery/conveyor/east{
-	id = "ghostdrone"
-	},
-/turf/simulated/floor/plating/random,
-/area/ghostdrone_factory)
 "aBB" = (
 /obj/machinery/door/airlock/pyro/glass{
 	name = "Nerd Dungeon"
@@ -11926,14 +11861,6 @@
 /obj/firedoor_spawn,
 /turf/simulated/floor/yellow,
 /area/station/crew_quarters/arcade/dungeon)
-"aBD" = (
-/obj/disposalpipe/trunk{
-	dir = 4;
-	name = "factory pipe"
-	},
-/obj/machinery/floorflusher/industrial,
-/turf/simulated/floor/plating/random,
-/area/ghostdrone_factory)
 "aBE" = (
 /obj/disposalpipe/segment,
 /turf/simulated/wall/auto/supernorn,
@@ -12180,14 +12107,6 @@
 "aCp" = (
 /turf/simulated/floor/carpet/arcade,
 /area/station/crew_quarters/arcade/dungeon)
-"aCq" = (
-/obj/disposalpipe/segment{
-	dir = 8;
-	icon_state = "pipe-c";
-	name = "factory pipe"
-	},
-/turf/simulated/floor/scorched,
-/area/ghostdrone_factory)
 "aCr" = (
 /obj/reagent_dispensers/fueltank,
 /obj/machinery/camera{
@@ -18904,10 +18823,6 @@
 	},
 /turf/simulated/floor/wood/two,
 /area/station/turret_protected/ai_upload)
-"aTi" = (
-/obj/machinery/light/incandescent/netural,
-/turf/simulated/floor/grime,
-/area/ghostdrone_factory)
 "aTj" = (
 /obj/machinery/power/data_terminal,
 /obj/machinery/networked/storage/tape_drive{
@@ -41413,246 +41328,23 @@
 /obj/stool/chair,
 /turf/simulated/floor/plating/random,
 /area/station/maintenance/south)
-"bYI" = (
-/turf/simulated/wall/auto/reinforced/supernorn,
-/area/ghostdrone_factory)
-"bYJ" = (
-/obj/machinery/door/airlock/pyro/external,
-/turf/simulated/floor/plating/random,
-/area/ghostdrone_factory)
-"bYK" = (
-/obj/machinery/drainage/big,
-/turf/simulated/floor/plating/random,
-/area/ghostdrone_factory)
-"bYL" = (
-/obj/wingrille_spawn/auto,
-/turf/simulated/floor/plating,
-/area/ghostdrone_factory)
-"bYM" = (
-/obj/storage/crate/abcumarker,
-/turf/simulated/floor/plating/random,
-/area/ghostdrone_factory)
-"bYN" = (
-/turf/simulated/floor/plating/random,
-/area/ghostdrone_factory)
-"bYO" = (
-/obj/decal/cleanable/dirt,
-/turf/simulated/floor/plating/random,
-/area/ghostdrone_factory)
-"bYP" = (
-/obj/machinery/abcu,
-/turf/simulated/floor/plating/random,
-/area/ghostdrone_factory)
-"bYQ" = (
-/obj/decal/cleanable/cobweb2,
-/obj/machinery/abcu,
-/turf/simulated/floor/plating/random,
-/area/ghostdrone_factory)
-"bYR" = (
-/obj/decal/cleanable/oil,
-/turf/simulated/floor/plating/random,
-/area/ghostdrone_factory)
-"bYS" = (
-/obj/machinery/light/incandescent/netural,
-/turf/simulated/floor/plating/random,
-/area/ghostdrone_factory)
-"bYT" = (
-/obj/table/wood/auto,
-/obj/random_item_spawner/tools,
-/turf/simulated/floor/grime,
-/area/ghostdrone_factory)
-"bYU" = (
-/turf/simulated/floor/grime,
-/area/ghostdrone_factory)
-"bYV" = (
-/turf/simulated/wall/auto/supernorn,
-/area/ghostdrone_factory)
-"bYW" = (
-/obj/machinery/door/airlock/pyro,
-/turf/simulated/floor/plating,
-/area/ghostdrone_factory)
-"bYX" = (
-/obj/disposalpipe/segment{
-	dir = 4;
-	icon_state = "pipe-c";
-	name = "factory pipe"
-	},
-/turf/simulated/wall/auto/supernorn,
-/area/ghostdrone_factory)
-"bYY" = (
-/obj/disposalpipe/segment{
-	dir = 4;
-	name = "factory pipe"
-	},
-/turf/simulated/wall/auto/supernorn,
-/area/ghostdrone_factory)
-"bYZ" = (
-/obj/disposalpipe/segment{
-	dir = 2;
-	icon_state = "pipe-c";
-	name = "factory pipe"
-	},
-/turf/simulated/wall/auto/supernorn,
-/area/ghostdrone_factory)
-"bZa" = (
-/obj/stool/chair/comfy,
-/turf/simulated/floor/carpet/red/standard/edge/nw,
-/area/ghostdrone_factory)
-"bZb" = (
-/obj/decal/cleanable/dirt,
-/obj/stool/chair/comfy,
-/turf/simulated/floor/carpet/red/standard/edge/north,
-/area/ghostdrone_factory)
-"bZc" = (
-/turf/simulated/floor/carpet/red/standard/edge/ne,
-/area/ghostdrone_factory)
 "bZd" = (
 /obj/cable{
 	icon_state = "1-2"
 	},
 /turf/simulated/floor,
 /area/research_outpost)
-"bZe" = (
-/obj/machinery/drone_recharger/factory,
-/turf/simulated/floor/plating/random,
-/area/ghostdrone_factory)
 "bZf" = (
 /obj/machinery/chemicompiler_stationary,
 /turf/simulated/floor/purple/checker,
 /area/station/science/chemistry)
-"bZg" = (
-/obj/machinery/drone_recharger/factory,
-/turf/simulated/floor/grime,
-/area/ghostdrone_factory)
-"bZh" = (
-/obj/decal/cleanable/dirt,
-/turf/simulated/floor/grime,
-/area/ghostdrone_factory)
-"bZi" = (
-/obj/table/wood/auto,
-/obj/item/plate,
-/obj/item/reagent_containers/food/snacks/burger/moldy,
-/obj/machinery/light/incandescent/netural,
-/turf/simulated/floor/carpet/red/standard/edge/west,
-/area/ghostdrone_factory)
-"bZj" = (
-/obj/table/wood/auto,
-/obj/random_item_spawner/desk_stuff,
-/turf/simulated/floor/carpet/red,
-/area/ghostdrone_factory)
-"bZk" = (
-/turf/simulated/floor/carpet/red/standard/edge/east,
-/area/ghostdrone_factory)
-"bZl" = (
-/obj/machinery/door/airlock/pyro{
-	dir = 4
-	},
-/turf/simulated/floor/plating,
-/area/ghostdrone_factory)
-"bZm" = (
-/turf/simulated/floor/damaged4,
-/area/ghostdrone_factory)
 "bZn" = (
 /turf/simulated/floor/engine,
 /area/research_outpost/chamber)
-"bZo" = (
-/obj/disposalpipe/segment{
-	dir = 1;
-	icon_state = "pipe-c";
-	name = "factory pipe"
-	},
-/turf/simulated/floor/grime,
-/area/ghostdrone_factory)
-"bZp" = (
-/obj/disposalpipe/segment{
-	dir = 4;
-	name = "factory pipe"
-	},
-/turf/simulated/floor/plating/random,
-/area/ghostdrone_factory)
-"bZq" = (
-/obj/disposalpipe/segment{
-	dir = 8;
-	icon_state = "pipe-c";
-	name = "factory pipe"
-	},
-/turf/simulated/floor/grime,
-/area/ghostdrone_factory)
 "bZr" = (
 /obj/item/device/multitool,
 /turf/simulated/floor/plating/random,
 /area/station/maintenance/northeast)
-"bZs" = (
-/obj/machinery/door/airlock/pyro/external{
-	dir = 4
-	},
-/turf/simulated/floor/plating/random,
-/area/ghostdrone_factory)
-"bZt" = (
-/obj/machinery/door/airlock/pyro/external{
-	dir = 4
-	},
-/turf/simulated/floor/plating,
-/area/ghostdrone_factory)
-"bZu" = (
-/obj/decal/cleanable/dirt,
-/obj/stool/chair/comfy{
-	dir = 1
-	},
-/turf/simulated/floor/carpet/red/standard/edge/sw,
-/area/ghostdrone_factory)
-"bZv" = (
-/obj/stool/chair/comfy{
-	dir = 1
-	},
-/turf/simulated/floor/carpet/red/standard/edge/south,
-/area/ghostdrone_factory)
-"bZw" = (
-/turf/simulated/floor/carpet/red/standard/edge/se,
-/area/ghostdrone_factory)
-"bZx" = (
-/obj/decal/cleanable/dirt,
-/obj/disposalpipe/segment{
-	dir = 4;
-	name = "factory pipe"
-	},
-/turf/simulated/floor/grime,
-/area/ghostdrone_factory)
-"bZy" = (
-/obj/disposalpipe/segment{
-	dir = 4;
-	name = "factory pipe"
-	},
-/turf/simulated/floor/grime,
-/area/ghostdrone_factory)
-"bZz" = (
-/obj/decal/cleanable/oil,
-/obj/disposalpipe/segment{
-	dir = 4;
-	name = "factory pipe"
-	},
-/turf/simulated/floor/grime,
-/area/ghostdrone_factory)
-"bZA" = (
-/obj/disposalpipe/junction{
-	dir = 1;
-	icon_state = "pipe-j2";
-	name = "factory pipe"
-	},
-/turf/simulated/floor/grime,
-/area/ghostdrone_factory)
-"bZB" = (
-/turf/simulated/floor/damaged2,
-/area/ghostdrone_factory)
-"bZC" = (
-/turf/simulated/floor/scorched,
-/area/ghostdrone_factory)
-"bZD" = (
-/obj/table/auto,
-/obj/item/sheet/steel/fullstack,
-/obj/item/rods/steel/fullstack,
-/turf/simulated/floor/grime,
-/area/ghostdrone_factory)
 "bZE" = (
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/research_outpost/chamber)
@@ -41678,27 +41370,6 @@
 	dir = 8
 	},
 /area/station/science/lobby)
-"bZH" = (
-/obj/table/auto,
-/obj/item/sheet/glass/reinforced/fullstack,
-/obj/item/light/tube,
-/obj/item/light/tube,
-/obj/item/light/tube,
-/turf/simulated/floor/grime,
-/area/ghostdrone_factory)
-"bZI" = (
-/obj/table/wood/auto,
-/obj/random_item_spawner/tools,
-/turf/simulated/floor/plating/random,
-/area/ghostdrone_factory)
-"bZJ" = (
-/obj/table/auto,
-/obj/item/sheet/steel/reinforced/fullstack,
-/obj/item/light/tube,
-/obj/item/light/tube,
-/obj/item/light/tube,
-/turf/simulated/floor/plating,
-/area/ghostdrone_factory)
 "bZK" = (
 /obj/cable{
 	icon_state = "1-2"
@@ -41750,31 +41421,6 @@
 /obj/firedoor_spawn,
 /turf/simulated/floor/sanitary,
 /area/station/science/lobby)
-"bZP" = (
-/obj/machinery/ghost_catcher,
-/turf/simulated/floor/plating/random,
-/area/ghostdrone_factory)
-"bZQ" = (
-/obj/table/auto,
-/obj/item/sheet/glass/fullstack,
-/obj/item/light/bulb,
-/obj/item/light/bulb,
-/turf/simulated/floor/grime,
-/area/ghostdrone_factory)
-"bZR" = (
-/obj/decal/cleanable/dirt,
-/obj/table/auto,
-/obj/item/sheet/steel/fullstack,
-/obj/item/light/bulb,
-/obj/item/light/bulb,
-/turf/simulated/floor/grime,
-/area/ghostdrone_factory)
-"bZS" = (
-/obj/table/auto,
-/obj/item/sheet/glass/fullstack,
-/obj/item/rods/steel/fullstack,
-/turf/simulated/floor/plating/random,
-/area/ghostdrone_factory)
 "bZT" = (
 /obj/lattice{
 	icon_state = "lattice-dir-b"
@@ -67309,11 +66955,11 @@ aqn
 aqn
 aqn
 aqn
-bYI
-bYL
-bYL
-bYL
-bYI
+aqn
+aqn
+aqn
+aqn
+aqn
 aqn
 aqn
 aqn
@@ -67610,13 +67256,13 @@ aqn
 aqn
 aqn
 aqn
-bYI
-bYI
-bZa
-bZi
-bZu
-bYI
-bYI
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
 aqn
 aqn
 aqn
@@ -67911,15 +67557,15 @@ aqn
 aqn
 aqn
 aqn
-bYI
-bYI
-bYU
-bZb
-bZj
-bZv
-bZC
-bYI
-bYI
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
 aqn
 aqn
 aqn
@@ -68212,17 +67858,17 @@ aqn
 aqn
 aqn
 aqn
-bYI
-bYI
-bYT
-bYN
-bZc
-bZk
-bZw
-bYU
-bZI
-bYI
-bYI
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
 aqn
 aqn
 aqn
@@ -68512,19 +68158,19 @@ aqn
 aqn
 aqn
 aqn
-bYI
-bYI
-bYI
-bYI
-bYI
-bYI
-bYI
-bZl
-bYI
-bYI
-bYI
-bYI
-bYI
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
 aqn
 aqn
 aqn
@@ -68814,19 +68460,19 @@ aqn
 aqn
 aqn
 aqn
-bYJ
-bYK
-bYJ
-bYR
-bYN
-bYV
-bYU
-bYU
-bYN
-bZD
-bZJ
-bZR
-bYI
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
 aqn
 aqn
 aqn
@@ -69116,19 +68762,19 @@ aqn
 aqn
 aqn
 aqn
-bYI
-bYI
-bYI
-bYN
-bYN
-bYW
-bYN
-bZm
-bYU
-bYU
-bYU
-bYU
-bYI
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
 aqn
 aqn
 aqn
@@ -69420,17 +69066,17 @@ aqn
 aqn
 aqn
 aqn
-bYI
-bYS
-bYN
-bYX
-acC
-acD
-bZo
-awK
-aBA
-aTi
-bYI
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
 aqn
 aqn
 aqn
@@ -69721,18 +69367,18 @@ aqn
 aqn
 aqn
 aqn
-bYI
-bYI
-bYN
-bYO
-bYY
-bZe
-bYU
-bZx
-axl
-aBA
-bYU
-bYI
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
 aqn
 aqn
 aqn
@@ -70023,18 +69669,18 @@ aqn
 aqn
 aqn
 aqn
-bYL
-bYM
-bYN
-bYN
-bYZ
-acC
-bZo
-bZp
-axm
-aBA
-bYN
-bYI
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
 aqn
 aqn
 aqn
@@ -70325,18 +69971,18 @@ aqn
 aqn
 aqn
 aqn
-bYL
-bYN
-bYN
-bYN
-bYV
-bZg
-bZp
-bZy
-axI
-aBA
-bYU
-bYI
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
 aqn
 aqn
 aqn
@@ -70627,18 +70273,18 @@ aqn
 aqn
 aqn
 aqn
-bYL
-bYO
-bYN
-bYN
-bYX
-acC
-bZq
-bZz
-axm
-aBA
-bYU
-bYI
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
 aqn
 aqn
 aqn
@@ -70929,18 +70575,18 @@ aqn
 aqn
 aqn
 aqn
-bYL
-bYP
-bYN
-bYN
-bYY
-bZe
-bYN
-bZy
-azN
-aBD
-bYU
-bYI
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
 aqn
 aqn
 aqn
@@ -71231,18 +70877,18 @@ aqn
 aqn
 aqn
 aqn
-bYL
-bYQ
-bYN
-bYN
-bYZ
-acE
-bZo
-bZy
-bZP
-bZp
-bYS
-bYI
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
 aqn
 aqn
 aqn
@@ -71533,18 +71179,18 @@ aqn
 aqn
 aqn
 aqn
-bYI
-bYI
-bYN
-bYN
-bYW
-bZh
-awD
-bZA
-acD
-aCq
-bYU
-bYI
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
 aqn
 aqn
 aqn
@@ -71836,17 +71482,17 @@ aqn
 aqn
 aqn
 aqn
-bYI
-bYO
-bYN
-bYV
-bYN
-bYU
-bZB
-bZH
-bZQ
-bZS
-bYI
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
 aqn
 aqn
 aqn
@@ -72138,17 +71784,17 @@ aqn
 aqn
 aqn
 aqn
-bYI
-bYI
-bYI
-bYI
-bYI
-bZs
-bYI
-bYI
-bYI
-bYI
-bYI
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
 aqn
 aqn
 aqn
@@ -72443,12 +72089,12 @@ aqn
 aqn
 aqn
 aqn
-bYI
-bYN
-bYN
-bYN
-bYI
-aeB
+aqn
+aqn
+aqn
+aqn
+aqn
+aqn
 aqn
 aqn
 aqn
@@ -72745,11 +72391,11 @@ aqn
 aqn
 aqn
 aqn
-bYI
-bYI
-bYK
-bYI
-bYI
+aqn
+aqn
+aqn
+aqn
+aqn
 aqn
 aqn
 aqn
@@ -73048,9 +72694,9 @@ aqn
 aqn
 aqn
 aqn
-bYI
-bZt
-bYI
+aqn
+aqn
+aqn
 aqn
 aqn
 aqn
