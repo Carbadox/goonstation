@@ -147,7 +147,11 @@ triggerOnEntered(var/atom/owner, var/atom/entering)
 		explode_limit = limit
 		..()
 
+<<<<<<< HEAD
 	execute(var/obj/item/owner)
+=======
+	execute(var/obj/item/owner, var/mob/attacker, var/mob/attacked)
+>>>>>>> parent of 1da42e4d5 (Replaces the Ghost Drone's RCD with the Cardboard RCD (#4639))
 		if(explode_limit && explode_count >= explode_limit) return
 		if(world.time - lastTrigger < 50) return
 		lastTrigger = world.time
@@ -379,6 +383,7 @@ triggerOnEntered(var/atom/owner, var/atom/entering)
 				target.air.merge(payload)
 		return
 
+<<<<<<< HEAD
 /datum/materialProc/plasmastone_on_hit
 	execute(var/atom/owner)
 		owner.material.triggerTemp(locate(owner))
@@ -386,14 +391,23 @@ triggerOnEntered(var/atom/owner, var/atom/entering)
 /datum/materialProc/molitz_temp
 	var/unresonant = 1
 	var/iterations = 4 // big issue I had was that with the strat that Im designing this for (teleporting crystals in and out of engine) one crystal could last you for like, 50 minutes, I didnt want to keep on reducing total amount as itd nerf agent b collection hard. So instead I drastically reduced amount and drastically upped output. This would speed up farming agent b to 3 minutes per crystal, which Im fine with
+=======
+/datum/materialProc/moltiz_temp
+	var/total_oxygen = 200
+
+>>>>>>> parent of 1da42e4d5 (Replaces the Ghost Drone's RCD with the Cardboard RCD (#4639))
 	execute(var/atom/location, var/temp, var/agent_b=FALSE)
 		var/turf/target = get_turf(location)
+<<<<<<< HEAD
 		if(owner.hasProperty("resonance"))
 			if(unresonant == 1)
 				iterations = max(iterations, 2)
 				unresonant -= 1
 		if(iterations <= 0) return
 		if(ON_COOLDOWN(location, "molitz_gas_generate", 30 SECONDS)) return
+=======
+		if(ON_COOLDOWN(target, "moltiz_oxy_generate", 8 SECONDS)) return
+>>>>>>> parent of 1da42e4d5 (Replaces the Ghost Drone's RCD with the Cardboard RCD (#4639))
 
 		var/datum/gas_mixture/air = target.return_air()
 		if(!air) return
@@ -424,13 +438,17 @@ triggerOnEntered(var/atom/owner, var/atom/entering)
 
 			target.assume_air(payload)
 
-/datum/materialProc/molitz_temp/agent_b
+/datum/materialProc/moltiz_temp/agent_b
 	execute(var/atom/location, var/temp)
 		..(location, temp, TRUE)
 		return
 
+<<<<<<< HEAD
 /datum/materialProc/molitz_exp
 	var/maxexplode = 1
+=======
+/datum/materialProc/moltiz_exp
+>>>>>>> parent of 1da42e4d5 (Replaces the Ghost Drone's RCD with the Cardboard RCD (#4639))
 	execute(var/atom/location, var/sev)
 		if(maxexplode <= 0) return
 		var/turf/target = get_turf(location)
@@ -442,10 +460,6 @@ triggerOnEntered(var/atom/owner, var/atom/entering)
 			maxexplode -= 1
 			if(owner)
 				owner.setProperty("resonance", 10)
-
-/datum/materialProc/molitz_on_hit
-	execute(var/atom/owner, var/obj/attackobj)
-		owner.material.triggerTemp(owner, 1500)
 
 /datum/materialProc/miracle_add
 	execute(var/location)
@@ -603,6 +617,7 @@ triggerOnEntered(var/atom/owner, var/atom/entering)
 	execute(var/obj/item/owner)
 		if(istype(owner))
 			owner.enchant(3, setTo = 1)
+<<<<<<< HEAD
 
 /datum/materialProc/cardboard_blob_hit
 	execute(var/atom/owner, var/blobPower)
@@ -711,3 +726,5 @@ triggerOnEntered(var/atom/owner, var/atom/entering)
 				return
 
 
+=======
+>>>>>>> parent of 1da42e4d5 (Replaces the Ghost Drone's RCD with the Cardboard RCD (#4639))

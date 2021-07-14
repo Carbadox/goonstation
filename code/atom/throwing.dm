@@ -42,7 +42,6 @@
 		return
 
 	src.material?.triggerOnAttack(src, src, hit_atom)
-	hit_atom.material?.triggerOnHit(hit_atom, src, null, 2)
 	for(var/atom/A in hit_atom)
 		A.material?.triggerOnAttacked(A, src, hit_atom, src)
 

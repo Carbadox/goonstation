@@ -298,7 +298,16 @@
 			user.lastattacked = src
 			attack_particle(user,src)
 			playsound(src.loc, src.hitsound , 50, 1, pitch = 1.6)
+<<<<<<< HEAD
 			..()
+=======
+			src.take_damage(I.force, user)
+			if (I.tool_flags & TOOL_CHOPPING)
+				user.lastattacked = src
+				attack_particle(user,src)
+				playsound(src.loc, src.hitsound , 50, 1, pitch = 1.6)
+				src.take_damage(I.force*4, user)
+>>>>>>> parent of 1da42e4d5 (Replaces the Ghost Drone's RCD with the Cardboard RCD (#4639))
 
 		return
 	if (src.operating)
@@ -721,8 +730,6 @@
 	. += " It's [!src.locked ? "un" : null]locked."
 
 /obj/machinery/door/unpowered/wood/attackby(obj/item/I as obj, mob/user as mob)
-	if (I) // eh, this'll work well enough.
-		src.material?.triggerOnHit(src, I, user, 1)
 	if (src.operating)
 		return
 	src.add_fingerprint(user)
