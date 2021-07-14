@@ -824,10 +824,17 @@
 			S.hud.objects -= src // prevents invisible object from failed transfer (item doesn't fit in pockets from backpack for example)
 
 /obj/item/attackby(obj/item/W as obj, mob/user as mob, params)
+<<<<<<< HEAD
 	if(src.material)
 		src.material.triggerTemp(src ,1500)
 	if (W.firesource)
 		if (src.burn_possible && src.burn_point <= 1500)
+=======
+	if (src.material)
+		src.material.triggerTemp(src ,1500)
+	if (src.burn_possible && src.burn_point <= 1500)
+		if (W.firesource)
+>>>>>>> parent of 1da42e4d5 (Replaces the Ghost Drone's RCD with the Cardboard RCD (#4639))
 			src.combust()
 		else
 			..(W, user)

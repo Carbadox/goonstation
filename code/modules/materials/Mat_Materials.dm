@@ -161,11 +161,6 @@
 	var/list/triggersOnEntered = list()
 	/// Called when someone eats a thing with this material assigned.
 	var/list/triggersOnEat = list()
-	/// Called when blob hits something with this material assigned.
-	var/list/triggersOnBlobHit = list()
-	/// Called when an obj hits something with this material assigned.
-	var/list/triggersOnHit = list()
-
 
 	proc/triggerOnFail(var/atom/owner)
 		for(var/datum/materialProc/X in triggersFail)
@@ -233,6 +228,7 @@
 			call(X,  "execute")(M, I)
 		return
 
+<<<<<<< HEAD
 	proc/triggerOnBlobHit(var/atom/owner, var/blobPower)
 		for(var/datum/materialProc/X in triggersOnBlobHit)
 			call(X,  "execute")(owner, blobPower)
@@ -244,6 +240,8 @@
 		return
 
 
+=======
+>>>>>>> parent of 1da42e4d5 (Replaces the Ghost Drone's RCD with the Cardboard RCD (#4639))
 // Metals
 
 /// Base metal material parent
@@ -515,9 +513,8 @@
 	New()
 		setProperty("density", 40)
 		setProperty("hard", 40)
-		addTrigger(triggersTemp, new /datum/materialProc/molitz_temp())
-		addTrigger(triggersOnHit, new /datum/materialProc/molitz_on_hit())
-		addTrigger(triggersExp, new /datum/materialProc/molitz_exp())
+		addTrigger(triggersTemp, new /datum/materialProc/moltiz_temp())
+		addTrigger(triggersExp, new /datum/materialProc/moltiz_exp())
 		return ..()
 
 	beta
@@ -528,8 +525,8 @@
 
 		New()
 			..()
-			removeTrigger(triggersTemp, /datum/materialProc/molitz_temp) // no need to remove molitz_on_hit, all it
-			addTrigger(triggersTemp, new /datum/materialProc/molitz_temp/agent_b()) // does is call molitz_temp
+			removeTrigger(triggersTemp, /datum/materialProc/moltiz_temp)
+			addTrigger(triggersTemp, new /datum/materialProc/moltiz_temp/agent_b())
 			return
 
 /datum/material/crystal/claretine
@@ -564,7 +561,6 @@
 		addTrigger(triggersExp, new /datum/materialProc/erebite_exp())
 		addTrigger(triggersOnAttack, new /datum/materialProc/generic_explode_attack(33))
 		addTrigger(triggersOnAttacked, new /datum/materialProc/generic_explode_attack(33))
-		addTrigger(triggersOnHit, new /datum/materialProc/generic_explode_attack(33))
 		return ..()
 
 /datum/material/crystal/plasmastone
@@ -583,7 +579,6 @@
 
 		addTrigger(triggersTemp, new /datum/materialProc/plasmastone())
 		addTrigger(triggersExp, new /datum/materialProc/plasmastone())
-		addTrigger(triggersOnHit, new /datum/materialProc/plasmastone_on_hit())
 		return ..()
 
 /datum/material/crystal/plasmaglass
@@ -1047,8 +1042,6 @@
 		setProperty("density", 25)
 		setProperty("hard", 25)
 		setProperty("flammable", 67)
-		addTrigger(triggersOnBlobHit, new /datum/materialProc/cardboard_blob_hit())
-		addTrigger(triggersOnHit, new /datum/materialProc/cardboard_on_hit())
 		return ..()
 
 /datum/material/organic/chitin
